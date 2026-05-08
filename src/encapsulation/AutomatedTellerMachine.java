@@ -2,6 +2,14 @@ package encapsulation;
 
 import java.util.Scanner;
 
+// 類別 -> 屬性/方法() -> 每一行程式碼 
+// 類別 { 
+//      屬性
+//      方法() {
+//          每一行程式碼;
+//      }  
+// }
+
 public class AutomatedTellerMachine {
     private String account;
     private String password;
