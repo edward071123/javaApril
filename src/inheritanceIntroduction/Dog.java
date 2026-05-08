@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritanceIntroduction;
 
 public class Dog extends Animal{
     // Dog 為 Animal 的 sub class

@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritanceIntroduction;
 
 public class Cat extends Animal{
     @Override

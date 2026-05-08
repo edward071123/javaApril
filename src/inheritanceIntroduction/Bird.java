@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritanceIntroduction;
 
 public class Bird extends Animal1{
     int age;

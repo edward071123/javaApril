@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritanceIntroduction;
 
 public class Animal {
     public void eat() {

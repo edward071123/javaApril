@@ -1,4 +1,4 @@
-package Inheritance1;
+package inheritanceIntroduction1;
 
 public class Dog extends Animal{
     private String breed;
