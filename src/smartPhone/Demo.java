@@ -7,5 +7,9 @@ public class Demo {
         i14.charge();
         i14.display();
 
+        Android pixel10pro = new Android("pixel 10 pro");
+        pixel10pro.powerOn();
+        pixel10pro.charge();
+        pixel10pro.display();
     }
 }
