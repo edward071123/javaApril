@@ -8,7 +8,24 @@ public class Demo {
         // 還要檢查提領金額是否超過餘額
         // 存錢時需要確保金額不為0
 
-        AutomatedTellerMachine atm = new AutomatedTellerMachine();
-        atm.transaction();
+        
+        // 拆開來看:
+
+        // AutomatedTellerMachine      atm1      =     new AutomatedTellerMachine()
+        // |                            |              |
+        // |                            |              +--> 放進去的值(物件)
+        // |                            +-----------------> 盒子名稱 / 標籤
+        // +--------------------------> 盒子型別 / 只能裝AutomatedTellerMachine
+
+        //         盒子
+        //  ____________________________________
+        // / new AutomatedTellerMachine()      /|
+        // /__________________________________/ |
+        // |                                  | |
+        // |   名稱：atm1                      | |
+        // |   (AutomatedTellerMachine)       | /
+        // |__________________________________|/
+        AutomatedTellerMachine atm1 = new AutomatedTellerMachine();
+        atm1.transaction();
     }
 }
