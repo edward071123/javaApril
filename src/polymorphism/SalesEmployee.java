@@ -1,5 +1,6 @@
 package polymorphism;
 
+// 業績抽成員工: 基本薪資 X 抽成比例 + 基本薪資
 public class SalesEmployee extends Employee{
     private double commissionRate; // 抽成比例
 

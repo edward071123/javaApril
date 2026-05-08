@@ -1,5 +1,6 @@
 package polymorphism;
 
+// 基本員工: 領月薪的
 public class Employee {
     private String name;
     private double salary;
@@ -26,6 +27,6 @@ public class Employee {
     }
 
     public void calculateSalary() {
-        System.out.println(getName() + "的基本月薪:" + salary);
+        System.out.println(getName() + "的基本月薪:" + getSalary());
     }
 }

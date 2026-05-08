@@ -1,5 +1,6 @@
 package polymorphism;
 
+// 工讀生: 時間 X 時薪
 public class PartTimeEmployee extends Employee{
     private int hoursWorked;
 
